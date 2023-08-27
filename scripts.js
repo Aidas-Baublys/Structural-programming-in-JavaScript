@@ -1,5 +1,5 @@
-// num = 6;
-
-const num = 6;
-
-console.log(num);
+function getNumber(button) {
+  const numberStr = button.innerText;
+  console.log(numberStr);
+  console.log(typeof numberStr);
+}
