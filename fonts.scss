@@ -1,0 +1,21 @@
+@mixin fontBold {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+@mixin fontSemiBold {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+@mixin removeBtnStyle {
+  border: none;
+}

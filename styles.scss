@@ -1,0 +1,22 @@
+@import "./fonts.scss";
+
+.email-input {
+  @include fontSemiBold();
+  border: none;
+  border-bottom: 1px solid #1e1e1e;
+  background: #f6f6f6;
+  width: 320px;
+  height: 20px;
+  color: #c2c6c1;
+  padding-top: 28px;
+  text-align: start;
+
+  &:focus {
+    outline: none;
+    border-bottom: 1px solid #5a59f6;
+  }
+
+  &:hover {
+    background: yellowgreen;
+  }
+}
